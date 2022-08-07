@@ -1,0 +1,322 @@
+.my-gallery {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+	}
+
+.separator{
+	padding-top: 64px;
+}
+
+.img-full > img{
+	max-width: 80vw;
+	}
+
+
+.flex-video {
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: center;
+	}
+	
+.flex-video > div{
+	margin: 5px;
+	width: 320px;
+	background-color: red;
+	}	
+
+.tumbvid > div{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	transition: .66s;
+	-webkit-transition: .66s;
+	}
+
+.tumbvid > div:hover{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: center;
+	}
+	
+.flex-container > div{
+	margin: 10px;
+	}	
+	
+.flex-plataform {
+	display: flex;
+	flex-wrap: wrap;	
+	}
+	
+.flex-plataform > div{
+	margin: 10px;
+	}	
+	
+.invert-me > 	div{
+	filter: invert(0%);
+	-webkit-filter: invert(0%);
+	transition: .66s;
+	-webkit-transition: .66s;
+	}
+
+.invert-me > div:hover{
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+	}	
+
+	
+	
+hr{
+	border: 20px;
+	color: rgba(255,255,255,0.5);
+	}
+	
+/*
+.project-content p, h1, h2, h3, a{
+  padding-left: 2px;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    width: 1px;
+    height:1px;
+	visibility: hidden;
+}
+
+.disclaimer{
+	visibility:hidden;
+}
+
+.img_contact
+
+.semi-dark{
+  background-color:#444;
+}
+.section{
+  border: 1px gray;
+  border-style: dotted none dotted none;
+}
+
+.contact_style a{
+  color: #c0c0c0;
+  text-decoration: none;
+}
+
+.contact_mail{
+  text-transform: lowercase;
+}
+
+.nav-dark{
+  color: c8c8c8;
+	background: rgba(0,0,0,0.85);
+	padding: 10px;
+}
+
+.nav-dark a, a:visited{
+	background-color: rgba(0,0,0,0);
+	color: #ccc;
+	display: inline;
+	padding: 10px;
+	letter-spacing: 3px;
+}
+
+.nav-dark a:hover, a:active{
+	color: #fff;
+}
+
+.back-dark{
+	background-color: rgba(0,0,0,1.0);
+}
+.font-light{
+	color: rgba(255,255,255,0.9);
+}
+
+.shadow-dark{
+	text-shadow: -1px -1px 20px rgba(0,0,0,1.0), 1px 1px 20px rgba(0,0,0,1.0);
+}
+
+.shadow-light{
+	text-shadow: -1px -1px 20px rgba(255,255,255,0.5), 1px 1px 20px rgba(255,255,255,0.5);
+}
+
+.align-right{
+	text-align: right;
+	margin-right: 0px;
+}
+
+ .legend{
+	bottom:80px;
+ }
+
+@media screen and (max-height: 684px) { 
+	 .legend{
+	bottom:10px;
+ }
+}
+
+/* con  bg-image*/
+.proyect1{background: url(../../img/about-xuqubux.jpg);}
+.proyect2{background: url(../../img/about-umbra.jpg);}
+.proyect3{background: url(../../img/about-crosstitution.jpg);}
+.proyect4{background: url(../../img/about-dickmoshock.jpg);}
+.proyect5{background: url(../../img/about-skydome.jpg);}
+.proyect6{background: url(../../img/about-leviathan.jpg);}
+
+.proyect1, .proyect2, .proyect3, .proyect4, .proyect5, .proyect6 {  
+  border: 1px #989898;
+  border-style: solid;  
+  border-radius: 25px;
+	margin: 6px;	
+  padding: 0px;
+	min-width: 33.333%;
+	min-height: 288px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  transition: 0.500s;
+	filter: grayscale(50%) brightness(66%) contrast(150%);
+	-webkit-transition: 0.500s;
+  -webkit-filter: grayscale(33%) brightness(50%) contrast(150%);
+}
+
+.proyect1:hover, .proyect2:hover, .proyect3:hover, .proyect4:hover, .proyect5:hover, .proyect6:hover {
+  background-size: 133.333%;
+	filter: grayscale(0%) brightness(100%) contrast(100%);
+  -webkit-filter: grayscale(0%) brightness(100%) contrast(100%);
+}
+
+.proyect-text h1, .proyect-text p{
+  text-align: center;
+  position:absolute; 
+	margin: 0px;	
+  background: rgba(0, 0, 0, 0.75); 
+  color: #f1f1f1; 
+  width: 100%; 
+  border: 1px #989898;
+}
+
+.proyect-text h1{
+  font-size: 250%;
+  padding: 0px 0px 6px 0px;
+  border-radius: 25px 25px 0 0;
+  border-style: none none solid none;
+  top: 0px; 
+}
+
+.proyect-text p{
+  padding: 6px 0px 6px 0px; 
+  border-style: solid none;
+  border-radius: 0 0 25px 25px;
+  border-style: solid none none none;
+  bottom: 0; 
+}
+
+
+/* con image-src*/
+ .the_effect {
+  transition: 0.666s;
+	filter: grayscale(50%) brightness(66%) contrast(150%);
+	-webkit-transition: 0.666s;
+  -webkit-filter: grayscale(66%) brightness(75%) contrast(150%);
+}
+
+.the_effect:hover {
+	filter: grayscale(0%) brightness(100%) contrast(100%);
+	-webkit-filter: grayscale(0%) brightness(100%) contrast(100%);
+}
+
+.project-info img{
+	width: 100%;
+	margin: auto;	
+  border: 2px rgba(255,255,255,0.25);
+  border-style: dashed none none dashed;
+	object-fit: fill;
+}
+
+.project-info .project-content {  
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(0, 0, 0, 0.66); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 6px 0px 0px 0px; /* Some padding */
+  text-align: center;
+  border: 2px rgba(255,255,255,0.25);
+  border-style: dashed none dashed dashed;
+}
+
+.project-content h1, h2, h3{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.project-content p, small, a, a:hover{
+  color: #f1f1f1;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.clear{
+	margin: 0px 0px 2px 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+.p-xuqubux{
+  background-image: url('../../../img/xuqubux/header.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Loader */
+*,*:after, *:before{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#contain_preoloader{
+  background-color: rgba (64, 64, 64, 0.9);
+  height: 100%; width: 100%; 
+  position: fixed;
+  -webkit-traslation: all 1s ease;
+  -o-traslation: all 1s ease;
+  traslation: all 1s ease;
+  z-index: 10000;
+}
+
+#carga{
+  border: 15px solid #ccc;
+  border-top-color: #fff;
+  border-top-style: groove;
+  height: 100px; width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0; 
+  margin: auto;
+  -webkit-animation: girar 1.5s linear infinite;
+  -o-animation: girar 1.5s linear infinite;
+  animation: girar 1.5s linear infinite;
+}
+
+@keyframe girar{
+  from{transform: rotate(0deg);};
+  to  {transform: rotate(360deg);}
+}
